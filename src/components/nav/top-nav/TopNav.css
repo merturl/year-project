@@ -1,0 +1,9 @@
+.top-nav {
+  flex: 0 0 auto;
+  min-height: 50px;
+  background-color: #dcdcdc;
+}
+
+.top-nav > p {
+  text-align: center;
+}

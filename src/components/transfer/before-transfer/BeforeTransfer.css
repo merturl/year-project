@@ -1,0 +1,8 @@
+.upload {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload > img {
+  border: 1px solid;
+}

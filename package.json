@@ -1,5 +1,5 @@
 {
-  "homepage": "https://merturl/github.io/year-project",
+  "homepage": "https://merturl/github.io/year-project/",
   "name": "year-project",
   "version": "1.0.0",
   "description": "My webpack project",
@@ -9,8 +9,7 @@
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist",
-    "electron": "electron ."
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
