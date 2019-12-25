@@ -1,8 +1,10 @@
 .upload {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .upload > img {
   border: 1px solid;
+  border-radius: 8px;
 }
