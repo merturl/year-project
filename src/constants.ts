@@ -8,6 +8,7 @@ export enum COLORS {
   TITLE = '#FFFFFF',
 }
 
+
 export enum PAGE_PATHS {
   HOME = '/year-project/',
 }

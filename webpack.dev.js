@@ -14,7 +14,7 @@ module.exports = {
 	devtool: "inline-source-map",
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		publicPath: '/',
+		publicPath: '/year-project/',
 	},
 
 	module: {
@@ -61,6 +61,7 @@ module.exports = {
       "Access-Control-Allow-Origin": "*",
 		},
 		open: true,
+		openPage: "year-project/",
 		contentBase: './dist',
 		historyApiFallback: true,
 		proxy: {
