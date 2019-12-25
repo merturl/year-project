@@ -9,5 +9,5 @@ export enum COLORS {
 }
 
 export enum PAGE_PATHS {
-  HOME = '/',
+  HOME = '/year-project/',
 }
