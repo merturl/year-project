@@ -1,4 +1,6 @@
 .bottom-nav {
   flex: 0 0 auto;
-  background-color: #dcdcdc;
+  background-color: white;
+  font-size: 0.5rem;
+  text-align: center;
 }

@@ -11,7 +11,7 @@ const HomePage = () => {
       <TopNav />
       <Main>
         <TransferContainer />
-        <ul>
+        <ul className={'explain-transfer'}>
           <li>
             <p>Explain Something</p>
           </li>

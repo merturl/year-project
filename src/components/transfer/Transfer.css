@@ -4,4 +4,36 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  padding: 1rem;
+  background: #F4F5FA;
+  min-height: 500px;
+}
+
+.trasnfer-wrap {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+#transfer-input {
+  visibility: hidden;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
+.transfer-label {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background-color: rgba(96, 157, 159, 1);
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.transfer-label:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }

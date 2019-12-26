@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Transfer.css';
 import BeforeTransfer from './before-transfer/BeforeTransfer';
 import AfterTransfer from './after-transfer/AfterTransfer';
+import { FaPlus } from "react-icons/fa";
 
 const TransferContainer = () => {
   const [imageURL, setImageURL] = useState("");
@@ -11,13 +12,14 @@ const TransferContainer = () => {
   }
 
   return (
-    <>
-      <input type="file" name="file" onChange={handleOnchange}></input>
+    <div className={'trasnfer-wrap'}>
       <div className={'transfer-container'}>
         <BeforeTransfer imageURL={imageURL} />
-        <AfterTransfer imageURL={imageURL} />`
+        <AfterTransfer imageURL={imageURL} />
       </div>
-    </>
+      <label className={"transfer-label"} htmlFor="transfer-input"><FaPlus /></label>
+      <input id="transfer-input" type="file" name="file" onChange={handleOnchange}></input>
+    </div>
   )
 }
 
