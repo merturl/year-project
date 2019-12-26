@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
 
-import dashboard from '~/store/dashboard/reducer';
+import count from '~/store/count/reducer';
 const rootReducer = combineReducers({
-  dashboard,
+  count,
 });
 
 export default rootReducer;
