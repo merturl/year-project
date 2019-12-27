@@ -3,6 +3,7 @@ const webpack = require('webpack');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 	mode: 'production',
@@ -50,6 +51,9 @@ module.exports = {
 			{
 				template: path.resolve(__dirname, 'src', 'index.html')
 			}),
+		new CopyPlugin([
+			{ from: './models', to: './models' },
+		]),
 	],
 
 	optimization: {

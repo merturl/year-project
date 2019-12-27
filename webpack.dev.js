@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const createStyledComponentsTransformer = require('typescript-plugin-styled-components').default;
 const styledComponentsTransformer = createStyledComponentsTransformer();
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 	mode: 'development',
@@ -53,7 +54,10 @@ module.exports = {
 			{
 				template: path.resolve(__dirname, 'src', 'index.html')
 			}),
-		new BundleAnalyzerPlugin()
+		new BundleAnalyzerPlugin(),
+		new CopyPlugin([
+      { from: './models', to: './models' },
+    ]),
 	],
 
 	devServer: {
