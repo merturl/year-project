@@ -1,5 +1,5 @@
 # year-project
-### tensorflow.js
+### tensorflow
 ### react
 # project run
 ```
