@@ -1,6 +1,5 @@
 # year-project
-### tensorflow
-### react
+- this is demo site for client-side ML/DL Model services
 # project run
 
 ```
