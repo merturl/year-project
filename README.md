@@ -14,8 +14,8 @@ yarn start
 
 
 ### Next Todo
-- modify model for client
-- convert img tag to canvas tag
+- Modify Model for client(tsjs)
+- Convert img tag to canvas tag
 
 
 ### Contributor
