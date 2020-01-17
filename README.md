@@ -1,5 +1,6 @@
 # year-project
 - this is demo site for client-side ML/DL Model services
+- This makes a picture with a similar style that most famous painter styles.
 # project run
 
 ```
